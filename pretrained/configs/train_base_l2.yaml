@@ -1,0 +1,13 @@
+DATA_DIR: "data"
+EXP_BASE_DIR: "experiments"
+EXP_NAME: "exp_base_l2"
+EPOCHS: 10
+SAVE_EVERY_EPOCH: 2
+LEARNING_RATE: 1e-3
+BATCH_SIZE: 8
+RESUME_FROM: ""
+MODEL: "basic"
+DATASET: "basic"
+CHANNEL: 3
+LOSS: "L2"
+MODE: "nearest"

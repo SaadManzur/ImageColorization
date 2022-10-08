@@ -1,0 +1,14 @@
+TRAIN_DIR: "data/train"
+VAL_DIR: "data/val"
+EXP_BASE_DIR: "pretrained/experiments"
+EXP_NAME: "exp_lpips"
+EPOCHS: 10
+SAVE_EVERY_EPOCH: 2
+LEARNING_RATE: 1e-3
+BATCH_SIZE: 8
+RESUME_FROM: ""
+MODEL: "basic"
+DATASET: "basic"
+CHANNEL: 3
+LOSS: "LPIPS"
+MODE: "nearest"
